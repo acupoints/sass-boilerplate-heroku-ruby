@@ -1,18 +1,33 @@
 .sly-common-missing-parts-comp-left {
-    background-color:#ffd54f;
+    // background-color:#ffd54f;
+    background-color: aliceblue;
     margin-right: 4px;
+    overflow-y: auto;
+    position: sticky;
+    // top: 56px;
+    // height: 95vh;
+    overflow-x: hidden;
+    width: 90px;
+    @media screen and (min-width: 97.29309661615385rem) {
+        width: 360px;
+    }
 }
 .sly-common-missing-parts-comp-right {
     flex: 1;
-    padding-left: 16px;
+    // padding-left: 16px;
+    padding-left: 4px;
     background-color: aliceblue;
+    // background-color: #673ab7;
 }
 .sly-common-missing-parts-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+    align-items: flex-start;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: stretch;
     background-color: black;
+    width: 100vw;
 }
 .sly-common-missing-parts-container {
     background-color: #f44336;
@@ -20,4 +35,6 @@
     // padding-right: 4px;
     margin-right: 4px;
     flex: 1;
+    display: flex;
+    flex-direction: row;
 }
