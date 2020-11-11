@@ -37,9 +37,15 @@
     // color: #0c0d0e;
     color: indigo;
     flex: 1;
+
+    border-color: #673AB7;
+    box-shadow: none;
+    color: #607D8B;
+    // padding-right: 32px;
 }
 .sly-search-container {
-    background-color: rgba(106, 50, 196, 0.075);
+    // background-color: rgba(106, 50, 196, 0.075);
+    // background-color: #f8bbd0;
     // margin: 4px;
     padding: 4px;
     display: inline-block;

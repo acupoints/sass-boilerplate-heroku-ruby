@@ -60,4 +60,14 @@
     flex-direction: row;
     // flex-direction: column;
     align-items: center;
+    &.common {
+        position: absolute;
+        // top: 50%;
+        // margin-top: -16px;
+        // pointer-events: none;
+        @media screen and (min-width: 36.52386586615385rem) {
+            pointer-events: none;
+        }
+        z-index: 1;
+    }
 }
